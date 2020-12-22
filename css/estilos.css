@@ -6,9 +6,18 @@ body{
     margin: 0;
     padding: 0;
 }
+#cabecera {
+    background: #33a;
+    padding:20px;
+    color:white;
+    margin: 0;
+  
+    font-weight: bold;
+    box-shadow: 7px 16px 60px -7px rgba(0, 0, 0, .5);
+}
 #container{
     width:70%;
-    padding:1em;
+    padding:0;
     text-align: left;
     border:1px solid #ddd;
     margin:0 auto;
@@ -16,4 +25,8 @@ body{
 }
 #container h1 {
     font-size:20px;
+    padding: 5px;
+}
+#container p {
+    padding: 10px;
 }

@@ -30,3 +30,8 @@ body{
 #container p {
     padding: 10px;
 }
+.footer{
+    text-align:center;
+    background: violet;
+    padding: 1px;
+}

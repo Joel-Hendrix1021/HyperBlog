@@ -1,17 +1,20 @@
 body{
     color:black;
     text-align:center;
-    font-family:sans-serif;
+    font-family:Arial;
     font-size:16px;
     margin: 0;
     padding: 0;
+    background:#1e1f24;
 }
 #cabecera {
     background: #33a;
-    padding:20px;
+    padding:5px;
+    margin: auto;
     color:white;
     margin: 0;
-  
+    display: flex;
+    align-items: center;   
     font-weight: bold;
     box-shadow: 7px 16px 60px -7px rgba(0, 0, 0, .5);
 }
@@ -21,12 +24,19 @@ body{
     text-align: left;
     border:1px solid #ddd;
     margin:0 auto;
-    
+    background:white;
+}
+img {
+    margin-right: 5px;
 }
 #container h1 {
     font-size:20px;
     padding: 5px;
+   
 }
 #container p {
     padding: 10px;
+}
+#tagline{
+    margin-left: 15px;
 }

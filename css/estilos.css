@@ -37,7 +37,8 @@ img {
 #container p {
     padding: 10px;
 }
-#tagline{
-    margin-left: 15px;
+.footer{
+    text-align:center;
+    background: violet;
+    padding: 1px;
 }
-
